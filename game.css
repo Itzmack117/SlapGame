@@ -1,0 +1,17 @@
+.hide{
+    display: none;
+}
+
+#balrog{
+    height: 618px;
+}
+body{
+    background-color: black;
+    color: aliceblue;
+}
+button{
+    background-color: crimson !important ;
+    color: aliceblue !important;
+    border: 1px solid orange !important;
+    
+}

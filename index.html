@@ -23,10 +23,10 @@
         </div>
     </header>
     <main>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col">
-                    <img src="http://placekitten.com/200/200" alt="target-picture">
+                <div id="balrog" class="col">
+                    <img src="balrog.jpg">
                 </div>
             </div>
         </div>
@@ -35,9 +35,18 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <button class="btn btn-primary" onclick="slap()">Slap</button>
-                    <button class="btn btn-primary" onclick="punch()">Punch</button>
-                    <button class="btn btn-primary" onclick="kick()">Kick</button>
+                    <button class="btn btn-warning" onclick="slap()">Slap</button>
+                    <button class="btn btn-warning" onclick="punch()">Punch</button>
+                    <button class="btn btn-warning" onclick="kick()">Kick</button>
+                    <div id="items">Items Here!</div>
+                    <div id="victory-message"></div>
+                    <span>
+                        <button id="staff" class="btn btn-warning staffButton"
+                            onclick=" hide(); giveItem('staff')">Buy</button>
+                    </span>
+                    <span>
+                        <button id="robes" class="btn btn-warning robeButton" onclick="giveItem('robes')">Buy</button>
+                    </span>
                 </div>
             </div>
         </div>
